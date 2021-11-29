@@ -1,0 +1,16 @@
+现有一个student表结构数据如下：
+
+id	hight	sex	age
+1	160	0	16
+2 	170 	1 	16 
+3 	180 	1 	17 
+4 	160 	1 	16 
+5 	170 	0 	17 
+6	170	0	18
+现在需要查出 age=16、17、18的学生的数量。
+
+解决方法：
+
+SELECT id, sum(age= '16') AS age16, sum(age= '17') as age17
+FROM student
+ORDER BY age DESC
