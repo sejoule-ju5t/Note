@@ -1,0 +1,19 @@
+select * from sys.objects where type = 'U'
+
+U   =   用户表
+V   =   视图 
+P   =   存储过程 
+TF =   表函数
+FN =   标量函数
+ 
+C   =   CHECK   约束 
+D   =   默认值或   DEFAULT   约束 
+F   =   FOREIGN   KEY   约束 
+IF =   内嵌表函数 
+K   =   PRIMARY KEY或 UNIQUE   约束   
+L   =   日志 
+R   =   规则 
+RF =   复制筛选存储过程 
+S   =   系统表   
+TR =   触发器 
+X   =   扩展存储过程
